@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 150px auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1.title{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ffe259, #ffa751);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wrapper-row{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.wrapper-row-item h1{
+    font-size: 48px;
+    color: #ffec61;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper-row-item span{
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.congrats {
+    margin-top: 20px;
+    font-size: 28px;
+    color: #fff;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.congrats img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
